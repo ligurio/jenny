@@ -1,0 +1,15 @@
+language: c
+sudo: required
+dist: trusty
+
+os:
+  - linux
+  - osx
+
+compiler:
+  - clang
+  - gcc
+
+script:
+  - make
+  - make test

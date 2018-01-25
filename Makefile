@@ -13,7 +13,8 @@ all: $(TARGET)
 $(TARGET): $(SRC)
 	$(CC) $(CFLAGS) $< -o $@
 
-test:
+test: $(TARGET)
+	$(SHELL) ./jenny_test.sh
 
 tags:
 	rm -f tags

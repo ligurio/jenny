@@ -8,3 +8,6 @@ tested, consider using jenny. It will cover most of the interactions with far
 fewer testcases. It can guarantee pairwise testing of all features that can be
 used together, and it can avoid those feature combinations that cannot.
 
+[Learn
+more](https://csrc.nist.gov/Projects/Automated-Combinatorial-Testing-for-Software)
+about combinatorial testing.

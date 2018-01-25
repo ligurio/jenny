@@ -1,0 +1,240 @@
+1
+ (use -n1) (put -n last) (between n and 10 dimensions) (a dimension of size 2) (all dimensions equal size) (several restrictions) (some restrictions fully duplicated) (a restriction comes after the dimensions it constrains) (one -s) (put -s first) 
+2
+ (use -n2) (put -n in the middle of the dimensions) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+3
+ (use a -n bigger than 2) (put -n before the dimensions) (more than 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction has -n features) (several -s) (put -s last) 
+4
+ (don't use a -n) (between n and 10 dimensions) (a dimension of size 2) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s in the middle) 
+5
+ (use -n1) (put -n last) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some deduced restrictions) (no duplicate restrictions) (a restriction has more than -n features) (no -s) 
+6
+ (use -n1) (put -n before the dimensions) (more than 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (a restriction comes before the dimensions it constrains) (one -s) (put -s in the middle) 
+7
+ (don't use a -n) (n dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has less than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s first) 
+8
+ (use -n2) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some restrictions partially duplicated) (a restriction comes after the dimensions it constrains) (no -s) 
+9
+ (don't use a -n) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (one -s) (put -s in the middle) 
+10
+ (use -n2) (put -n in the middle of the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction has more than -n features) (several -s) (put -s last) 
+11
+ (use a -n bigger than 2) (put -n before the dimensions) (n dimensions) (a dimension of size 2) (all dimensions equal size) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction has -n features) (a restriction comes after the dimensions it constrains) (no -s) 
+12
+ (use a -n bigger than 2) (put -n before the dimensions) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some deduced restrictions) (no duplicate restrictions) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (one -s) (put -s first) 
+13
+ (use a -n bigger than 2) (put -n last) (more than 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (several restrictions) (no deduced restrictions) (some restrictions fully duplicated) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (one -s) (put -s last) 
+14
+ (don't use a -n) (more than 10 dimensions) (a dimensions with 3 to 9 features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (no -s) 
+15
+ (use -n2) (put -n in the middle of the dimensions) (n dimensions) (a dimension of size 2) (all dimensions equal size) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has -n features) (one -s) (put -s last) 
+16
+ (use -n2) (put -n last) (between n and 10 dimensions) (a dimension of size 2) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s in the middle) 
+17
+ (use a -n bigger than 2) (put -n before the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (several restrictions) (no duplicate restrictions) (a restriction has less than -n features) (a restriction comes after the dimensions it constrains) (one -s) (put -s in the middle) 
+18
+ (use a -n bigger than 2) (put -n last) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (one -s) (put -s last) 
+19
+ (don't use a -n) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s last) 
+20
+ (use -n1) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction comes before the dimensions it constrains) (one -s) (put -s first) 
+21
+ (use -n1) (put -n last) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has -n features) (several -s) (put -s first) 
+22
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (some restrictions fully duplicated) (a restriction has less than -n features) (one -s) (put -s in the middle) 
+23
+ (use -n2) (put -n in the middle of the dimensions) (n dimensions) (a dimension of size 2) (different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (one -s) (put -s first) 
+24
+ (use -n1) (put -n before the dimensions) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (one -s) (put -s last) 
+25
+ (use a -n bigger than 2) (put -n last) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (very different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (no -s) 
+26
+ (use -n2) (put -n before the dimensions) (more than 10 dimensions) (a dimension of size 2) (all dimensions equal size) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has more than -n features) (no -s) 
+27
+ (use -n1) (put -n before the dimensions) (more than 10 dimensions) (a dimension of size 2) (very different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s in the middle) 
+28
+ (don't use a -n) (n dimensions) (a dimension of size 2) (all dimensions equal size) (several restrictions) (some restrictions partially duplicated) (a restriction has less than -n features) (a restriction comes after the dimensions it constrains) (one -s) (put -s last) 
+29
+ (use -n2) (put -n before the dimensions) (n dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (no duplicate restrictions) (a restriction comes before the dimensions it constrains) (several -s) (put -s first) 
+30
+ (don't use a -n) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (several restrictions) (some deduced restrictions) (no duplicate restrictions) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (one -s) (put -s first) 
+31
+ (don't use a -n) (between n and 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+32
+ (use -n2) (put -n last) (n dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has -n features) (a restriction comes after the dimensions it constrains) (one -s) (put -s in the middle) 
+33
+ (use -n1) (put -n in the middle of the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (some restrictions fully duplicated) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+34
+ (use -n2) (put -n before the dimensions) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some restrictions partially duplicated) (a restriction has less than -n features) (one -s) (put -s first) 
+35
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (between n and 10 dimensions) (a dimension of size 2) (different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction comes before the dimensions it constrains) (several -s) (put -s last) 
+36
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (between n and 10 dimensions) (a dimension of size 2) (very different size dimensions) (several restrictions) (no deduced restrictions) (some restrictions fully duplicated) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s in the middle) 
+37
+ (don't use a -n) (n dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction has less than -n features) (no -s) 
+38
+ (use -n2) (put -n last) (more than 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (some deduced restrictions) (no duplicate restrictions) (a restriction has less than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s last) 
+39
+ (use -n1) (put -n before the dimensions) (between n and 10 dimensions) (a dimension of size 2) (all dimensions equal size) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction has more than -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s last) 
+40
+ (use -n2) (put -n last) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s first) 
+41
+ (use -n2) (put -n in the middle of the dimensions) (n dimensions) (a dimensions with 3 to 9 features) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction comes after the dimensions it constrains) (no -s) 
+42
+ (use -n1) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some restrictions partially duplicated) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s last) 
+43
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (one -s) (put -s in the middle) 
+44
+ (don't use a -n) (more than 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (some restrictions fully duplicated) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s first) 
+45
+ (use a -n bigger than 2) (put -n last) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has -n features) (a restriction comes after the dimensions it constrains) (no -s) 
+46
+ (use a -n bigger than 2) (put -n last) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s first) 
+47
+ (use -n1) (put -n last) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (several -s) (put -s in the middle) 
+48
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (no duplicate restrictions) (a restriction has -n features) (no -s) 
+49
+ (use -n1) (put -n before the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (no -s) 
+50
+ (don't use a -n) (more than 10 dimensions) (a dimension of size 2) (all dimensions equal size) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (one -s) (put -s last) 
+51
+ (don't use a -n) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has less than -n features) (one -s) (put -s in the middle) 
+52
+ (use -n2) (put -n before the dimensions) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (one -s) (put -s in the middle) 
+53
+ (use -n1) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s first) 
+54
+ (don't use a -n) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction comes after the dimensions it constrains) (no -s) 
+55
+ (use a -n bigger than 2) (put -n before the dimensions) (between n and 10 dimensions) (a dimension of size 2) (very different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (one -s) (put -s first) 
+56
+ (use a -n bigger than 2) (put -n last) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction has less than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s last) 
+57
+ (use -n2) (put -n last) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s last) 
+58
+ (don't use a -n) (n dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (several restrictions) (no duplicate restrictions) (one -s) (put -s last) 
+59
+ (use a -n bigger than 2) (put -n last) (n dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (some restrictions partially duplicated) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+60
+ (don't use a -n) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (no deduced restrictions) (some restrictions fully duplicated) (a restriction has -n features) (no -s) 
+61
+ (use -n2) (put -n before the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (very different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction has -n features) (a restriction comes after the dimensions it constrains) (one -s) (put -s last) 
+62
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+63
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (one -s) (put -s first) 
+64
+ (use -n1) (put -n before the dimensions) (between n and 10 dimensions) (a dimension of size 2) (very different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (no -s) 
+65
+ (use a -n bigger than 2) (put -n last) (n dimensions) (a dimension of size 2) (all dimensions equal size) (several restrictions) (some deduced restrictions) (no duplicate restrictions) (a restriction comes after the dimensions it constrains) (several -s) (put -s in the middle) 
+66
+ (use -n1) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s last) 
+67
+ (don't use a -n) (more than 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (one -s) (put -s in the middle) 
+68
+ (use -n2) (put -n last) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (no -s) 
+69
+ (use -n1) (put -n in the middle of the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (very different size dimensions) (several restrictions) (some deduced restrictions) (no duplicate restrictions) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s in the middle) 
+70
+ (use a -n bigger than 2) (put -n before the dimensions) (n dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction comes after the dimensions it constrains) (one -s) (put -s last) 
+71
+ (use a -n bigger than 2) (put -n before the dimensions) (n dimensions) (a dimension of size 2) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (no -s) 
+72
+ (don't use a -n) (more than 10 dimensions) (a dimension of size 2) (all dimensions equal size) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (one -s) (put -s first) 
+73
+ (don't use a -n) (more than 10 dimensions) (a dimension of size 2) (very different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has more than -n features) (a restriction comes before the dimensions it constrains) (one -s) (put -s last) 
+74
+ (use a -n bigger than 2) (put -n before the dimensions) (n dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s first) 
+75
+ (use -n2) (put -n last) (more than 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (no deduced restrictions) (some restrictions fully duplicated) (a restriction has more than -n features) (a restriction comes before the dimensions it constrains) (one -s) (put -s first) 
+76
+ (use -n2) (put -n in the middle of the dimensions) (n dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some deduced restrictions) (no duplicate restrictions) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (one -s) (put -s last) 
+77
+ (use -n2) (put -n before the dimensions) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s in the middle) 
+78
+ (use -n1) (put -n last) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (no deduced restrictions) (some restrictions fully duplicated) (several -s) (put -s in the middle) 
+79
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (one -s) (put -s first) 
+80
+ (don't use a -n) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction comes before the dimensions it constrains) (several -s) (put -s first) 
+81
+ (use -n1) (put -n before the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (very different size dimensions) (several restrictions) (no deduced restrictions) (some restrictions fully duplicated) (a restriction has more than -n features) (one -s) (put -s first) 
+82
+ (use -n1) (put -n before the dimensions) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+83
+ (use -n2) (put -n last) (n dimensions) (a dimension of size 2) (all dimensions equal size) (several restrictions) (no deduced restrictions) (some restrictions fully duplicated) (a restriction comes before the dimensions it constrains) (no -s) 
+84
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction comes before the dimensions it constrains) (one -s) (put -s in the middle) 
+85
+ (use -n2) (put -n before the dimensions) (between n and 10 dimensions) (a dimension of size 2) (all dimensions equal size) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction has less than -n features) (several -s) (put -s last) 
+86
+ (use -n1) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (no -s) 
+87
+ (use -n2) (put -n in the middle of the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has less than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s first) 
+88
+ (use -n1) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction has -n features) (a restriction comes after the dimensions it constrains) (one -s) (put -s first) 
+89
+ (use -n1) (put -n last) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (no duplicate restrictions) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s last) 
+90
+ (use -n1) (put -n last) (more than 10 dimensions) (a dimension of size 2) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s in the middle) 
+91
+ (use -n2) (put -n last) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (no duplicate restrictions) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s in the middle) 
+92
+ (don't use a -n) (between n and 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction has -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s last) 
+93
+ (use -n1) (put -n in the middle of the dimensions) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction comes after the dimensions it constrains) (one -s) (put -s last) 
+94
+ (use a -n bigger than 2) (put -n before the dimensions) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s last) 
+95
+ (don't use a -n) (more than 10 dimensions) (a dimension of size 2) (all dimensions equal size) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has less than -n features) (a restriction comes after the dimensions it constrains) (no -s) 
+96
+ (don't use a -n) (more than 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (one -s) (put -s in the middle) 
+97
+ (don't use a -n) (between n and 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some restrictions partially duplicated) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+98
+ (use a -n bigger than 2) (put -n last) (between n and 10 dimensions) (a dimension of size 2) (different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (several -s) (put -s first) 
+99
+ (use a -n bigger than 2) (put -n before the dimensions) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+100
+ (use a -n bigger than 2) (put -n last) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction has -n features) (one -s) (put -s in the middle) 
+101
+ (use a -n bigger than 2) (put -n last) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s first) 
+102
+ (don't use a -n) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (no deduced restrictions) (no duplicate restrictions) (a restriction has -n features) (a restriction comes after the dimensions it constrains) (one -s) (put -s last) 
+103
+ (don't use a -n) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s first) 
+104
+ (don't use a -n) (n dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s last) 
+105
+ (use a -n bigger than 2) (put -n before the dimensions) (n dimensions) (a dimension of size 2) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (one -s) (put -s last) 
+106
+ (use -n1) (put -n last) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction comes after the dimensions it constrains) (several -s) (put -s first) 
+107
+ (use -n2) (put -n in the middle of the dimensions) (n dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (one -s) (put -s in the middle) 
+108
+ (use -n2) (put -n last) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction has -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+109
+ (don't use a -n) (more than 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (one -s) (put -s last) 
+110
+ (use a -n bigger than 2) (put -n last) (more than 10 dimensions) (a dimension of size 2) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s in the middle) 
+111
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (n dimensions) (a dimensions with 3 to 9 features) (very different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s last) 
+112
+ (use a -n bigger than 2) (put -n before the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (no -s) 
+113
+ (use a -n bigger than 2) (put -n last) (more than 10 dimensions) (a dimensions with 3 to 9 features) (different size dimensions) (several restrictions) (some restrictions fully duplicated) (a restriction comes after the dimensions it constrains) (one -s) (put -s in the middle) 
+114
+ (use a -n bigger than 2) (put -n last) (n dimensions) (a dimension of size 2) (all dimensions equal size) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has less than -n features) (one -s) (put -s in the middle) 
+115
+ (use a -n bigger than 2) (put -n before the dimensions) (between n and 10 dimensions) (a dimension of size 2) (very different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (several -s) (put -s last) 
+116
+ (use -n1) (put -n before the dimensions) (between n and 10 dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s first) 
+117
+ (use a -n bigger than 2) (put -n in the middle of the dimensions) (n dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (several -s) (put -s first) 
+118
+ (use -n2) (put -n in the middle of the dimensions) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (a restriction comes before the dimensions it constrains) (no -s) 
+119
+ (use -n2) (put -n last) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (one restriction) (no deduced restrictions) (some restrictions partially duplicated) (a restriction comes after the dimensions it constrains) (several -s) (put -s first) 
+120
+ (use -n2) (put -n last) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s last) 

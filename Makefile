@@ -2,16 +2,13 @@ TARGET = jenny
 
 CC ?= gcc
 SHELL = /bin/sh
-
-SRC += $(wildcard *.c)
-OBJ := $(SRC:.c=.o)
 CFLAGS = -std=c99 -Wall -pedantic
 CLEANFILES = $(TARGET)
 
 all: $(TARGET)
 
-$(TARGET): $(SRC)
-	$(CC) $(CFLAGS) $< -o $@
+$(TARGET): jenny.c
+	$(CC) $(CFLAGS) $(LDFLAGS) jenny.c -o $@
 
 test: $(TARGET)
 	$(SHELL) ./jenny_test.sh

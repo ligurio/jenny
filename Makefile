@@ -21,6 +21,6 @@ tags:
 	find . -name '*.[hcS]' -print | xargs ctags -a
 
 clean:
-	@rm -f $(TARGET) $(CLEANFILES)
+	@rm -f $(CLEANFILES)
 
 .PHONY: clean tags

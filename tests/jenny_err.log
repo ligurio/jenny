@@ -1,0 +1,84 @@
+jenny: 2-tuples are impossible with only 0 dimensions
+jenny: 2-tuples are impossible with only 0 dimensions
+jenny: a dimension must have at least 2 features, not 1
+jenny: 2-tuples are impossible with only 1 dimensions
+jenny: something was trailing a dimension number
+jenny: dimensions must be smaller than 52.  53 is too big.
+jenny: dimensions must be smaller than 52.  53 is too big.
+jenny: -n, 3-tuples are impossible with only 2 dimensions
+jenny:
+  Given a set of feature dimensions and withouts, produce tests
+  covering all n-tuples of features where all features come from
+  different dimensions.  For example (=, <, >, <=, >=, !=) is a
+  dimension with 6 features.  The type of the left-hand argument is
+  another dimension.  Dimensions are numbered 1..65535, in the order
+  they are listed.  Features are implicitly named a..z, A..Z.
+   3 Dimensions are given by the number of features in that dimension.
+  -h prints out these instructions.
+  -n specifies the n in n-tuple.  The default is 2 (meaning pairs).
+  -w gives withouts.  -w1b4ab says that combining the second feature
+     of the first dimension with the first or second feature of the
+     fourth dimension is disallowed.
+  -ofoo.txt reads old jenny testcases from file foo.txt and extends them.
+
+  The output is a testcase per line, one feature per dimension per
+  testcase, followed by the list of all allowed tuples that jenny could
+  not reach.
+
+  Example: jenny -n3 3 2 2 -w2b3b 5 3 -w1c3b4ace5ac 8 2 2 3 2
+  This gives ten dimensions, asks that for any three dimensions all
+  combinations of features (one feature per dimension) be covered,
+  plus it asks that certain combinations of features
+  (like (1c,3b,4c,5c)) not be covered.
+
+jenny: '-' by itself isn't a proper argument.
+jenny: -n should give an integer in 1..32, for example, -n2.
+jenny: -n says all n-tuples should be covered.
+jenny: -n says all n-tuples should be covered.
+jenny: -n should be followed by just an integer
+jenny: -n, 19-tuples are impossible with only 5 dimensions
+jenny: -w, dimension 4 was given twice in a single without
+jenny: -w, dimension 25740329352 does not exist, you gave only 4 dimensions
+jenny: -w, unexpected without syntax
+jenny: proper withouts look like -w2a1bc99a
+jenny: -w, withouts must follow numbers with features
+jenny: -w, there is no feature 'f' in dimension 2
+jenny: -w, dimension 0 does not exist, you gave only 4 dimensions
+jenny: -w is <number><features><number><features>...
+jenny: -w must start with an integer (1 to #dimensions)
+jenny: -w, dimension 3 was given twice in a single without
+jenny: -w, dimension 345 does not exist, you gave only 4 dimensions
+jenny: -s should give just an integer, example -s123
+jenny: -s must be followed by a positive integer
+jenny: legal arguments are numbers, -n, -s, -w, -h, not -m
+jenny: legal arguments are numbers, -n, -s, -w, -h, not -3
+jenny: 2-tuples are impossible with only 0 dimensions
+jenny: -o, non-space found where space expected
+jenny: -o, non-number found where number expected
+jenny: -o, non-space found where space expected
+ 1a 2a 3a 
+ 1b 2b 3b 
+ 1a 2b 3b 
+ 1b 2a 3a 
+ 1a 2a 3b 
+ 1b 2b 3a 
+ 1a 2a 3a 
+ 1a 2a 3a 
+ 1b 2b 3b 
+ 1a 2b 3b 
+ 1b 2a 3a 
+ 1a 2a 3b 
+ 1b 2b 3a 
+jenny: -o, old testcase contains some without
+jenny: -o, non-feature found where feature expected
+jenny: -o, number 2 found out-of-place
+jenny: -o, non-space found where space expected
+jenny: -o, testcase not properly terminated
+jenny: -o, non-space found where trailing space expected
+jenny: -o, feature f does not exist in dimension 2
+jenny: -o, non-feature found where feature expected
+jenny: file zilphendia.org could not be opened
+ 1a 2b 
+ 1b 2a 
+ 1a 2a 
+ 1b 2b 

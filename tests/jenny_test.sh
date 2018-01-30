@@ -95,7 +95,7 @@
 
 # test18: (use a -n bigger than 2) (put -n last) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (one -s) (put -s last) 
 
-./jenny 2 3 40 -n3 -s16 | wc
+./jenny 2 3 40 -n3 -s16
 
 # test19: (don't use a -n) (between n and 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (a restriction comes after the dimensions it constrains) (several -s) (put -s last) 
 
@@ -220,7 +220,7 @@
 
 # test46: (use a -n bigger than 2) (put -n last) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s first) 
 
-./jenny -n20 -s3 -s9 25 2 3 2 5 2 2 2 2 2 6 3 4 2 2 2 2 4 2 2 3 4 2 2 -n3 | wc
+./jenny -n20 -s3 -s9 25 2 3 2 5 2 2 2 2 2 6 3 4 2 2 2 2 4 2 2 3 4 2 2 -n3
 
 # test47: (use -n1) (put -n last) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (several restrictions) (some restrictions partially duplicated) (a restriction has more than -n features) (several -s) (put -s in the middle) 
 
@@ -230,7 +230,7 @@
 3 2 2 2 2 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 4 4 4 4 5 5 5 5 4 4 5 4 4 4 4 4 5 \
 5 5 5 5 5 5 5 -n1 \
 -w5a6a7a4a9a10a11a1a2a3a12a13a14a15a16a17a18a19ac20a \
--w5a6a7a4a9a10a11a1a2a3a12a13a14a15a16a17a18a19ab20a | wc
+-w5a6a7a4a9a10a11a1a2a3a12a13a14a15a16a17a18a19ab20a
 
 # test48: (use a -n bigger than 2) (put -n in the middle of the dimensions) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (no duplicate restrictions) (a restriction has -n features) (no -s) 
 
@@ -283,7 +283,7 @@
 
 # test59: (use a -n bigger than 2) (put -n last) (n dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (several restrictions) (some restrictions partially duplicated) (a restriction has less than -n features) (a restriction comes before the dimensions it constrains) (no -s) 
 
-./jenny -w1ab2bc -w1bc2cd -w1bcd2bcd3bd4bcd 4 4 4 4 -n4 | wc
+./jenny -w1ab2bc -w1bc2cd -w1bcd2bcd3bd4bcd 4 4 4 4 -n4
 
 # test60: (don't use a -n) (more than 10 dimensions) (a dimensions with 10 or more features) (very different size dimensions) (several restrictions) (no deduced restrictions) (some restrictions fully duplicated) (a restriction has -n features) (no -s) 
 
@@ -338,7 +338,7 @@
 
 # test71: (use a -n bigger than 2) (put -n before the dimensions) (n dimensions) (a dimension of size 2) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (no -s) 
 
-./jenny -n12 2 2 2 2 2 2 2 2 2 2 2 2 | wc
+./jenny -n12 2 2 2 2 2 2 2 2 2 2 2 2
 
 # test72: (don't use a -n) (more than 10 dimensions) (a dimension of size 2) (all dimensions equal size) (several restrictions) (some deduced restrictions) (some restrictions partially duplicated) (one -s) (put -s first) 
 
@@ -435,7 +435,7 @@
 
 # test94: (use a -n bigger than 2) (put -n before the dimensions) (more than 10 dimensions) (a dimension of size 2) (different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s last) 
 
-./jenny -n3 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 -s9 -s9 | wc
+./jenny -n3 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 -s9 -s9
 
 # test95: (don't use a -n) (more than 10 dimensions) (a dimension of size 2) (all dimensions equal size) (one restriction) (no deduced restrictions) (no duplicate restrictions) (a restriction has less than -n features) (a restriction comes after the dimensions it constrains) (no -s) 
 
@@ -473,11 +473,11 @@
 
 # test103: (don't use a -n) (n dimensions) (a dimensions with 10 or more features) (very different size dimensions) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s first) 
 
-./jenny -s7 50 -s9 20 | wc
+./jenny -s7 50 -s9 20
 
 # test104: (don't use a -n) (n dimensions) (a dimensions with 3 to 9 features) (all dimensions equal size) (no restrictions) (no deduced restrictions) (no duplicate restrictions) (several -s) (put -s last) 
 
-./jenny 10 10 -s9 -s7 | wc
+./jenny 10 10 -s9 -s7
 
 # test105: (use a -n bigger than 2) (put -n before the dimensions) (n dimensions) (a dimension of size 2) (very different size dimensions) (several restrictions) (some deduced restrictions) (some restrictions fully duplicated) (one -s) (put -s last) 
 

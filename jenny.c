@@ -422,7 +422,7 @@ char *my_alloc( state *s, size_t len)
   if (!(rsl = (char *)malloc(len+sizeof(size_t)))) {
     printf("jenny: could not allocate space\n");
     cleanup(s);
-    exit(0);  
+    exit(0);
   }
   memset(rsl, 0x00, len);
   return rsl;
@@ -683,7 +683,6 @@ int load( state *s, char *testfile)
   while (fgets(buf, BUFSIZE, f) && (buf[0] != '.')) {
     ub4   curr = 0;                               /* current offset into buf */
     ub4   value;                                              /* token value */
-    token_type token;                                          /* token type */
     ub4   i;
     test *t;
 
@@ -703,7 +702,7 @@ int load( state *s, char *testfile)
 	goto failure;
       }
       if (value-1 != i) {
-	printf("jenny: -o, number %d found out-of-place\n", value);
+	printf("jenny: -o, number %lu found out-of-place\n", value);
 	goto failure;
       }
       if (parse_token(buf, UB4MAXVAL, &curr, &value) != TOKEN_FEATURE) {
@@ -711,7 +710,7 @@ int load( state *s, char *testfile)
 	goto failure;
       }
       if (value >= s->dim[i]) {
-	printf("jenny: -o, feature %c does not exist in dimension %d\n", 
+	printf("jenny: -o, feature %c does not exist in dimension %lu\n",
 	       feature_name[value], i+1);
 	goto failure;
       }
@@ -814,7 +813,7 @@ int parse_w( state *s, sb1 *myarg)
   ub4        dimension_number;
   ub4        curr = 0;
   ub4        fe_len, value;
-  ub4        i, j, k;
+  ub4        i, j;
   size_t     len = strlen(myarg);
   token_type t = parse_token(myarg, len, &curr, &value);
   
@@ -826,7 +825,7 @@ int parse_w( state *s, sb1 *myarg)
     return FALSE;
   }
   fe_len=0;
-  
+
  number:
   dimension_number = --value;
   if (dimension_number >= s->ndim) {
@@ -835,13 +834,13 @@ int parse_w( state *s, sb1 *myarg)
     return FALSE;
   }
   if (used[dimension_number]) {
-    printf("jenny: -w, dimension %d was given twice in a single without\n",
+    printf("jenny: -w, dimension %lu was given twice in a single without\n",
 	   dimension_number+1);
     return FALSE;
   }
   used[dimension_number] = TRUE;
-  
-  
+
+
   switch (parse_token(myarg, len, &curr, &value)) {
   case TOKEN_FEATURE: goto feature;
   case TOKEN_END:
@@ -852,10 +851,10 @@ int parse_w( state *s, sb1 *myarg)
     printf("jenny: proper withouts look like -w2a1bc99a\n");
     return FALSE;
   }
-  
+
  feature:
   if (value >= s->dim[dimension_number]) {
-    printf("jenny: -w, there is no feature '%c' in dimension %d\n",
+    printf("jenny: -w, there is no feature '%c' in dimension %lu\n",
 	   feature_name[value], dimension_number+1);
     return FALSE;
   }
@@ -997,7 +996,7 @@ int parse( int argc, char *argv[], state *s)
 
   /* internal check: we have MAX_FEATURES names for features */
   if (strlen(feature_name) != MAX_FEATURES) {
-    printf("feature_name length is wrong, %d\n", strlen(feature_name));
+    printf("feature_name length is wrong, %lu\n", strlen(feature_name));
     return FALSE;
   }
 
@@ -1095,7 +1094,7 @@ void report( test *t, ub2 len)
 {
   ub4 i;
   for (i=0; i<len; ++i) {
-    printf(" %d%c", i+1, feature_name[t->f[i]]);
+    printf(" %lu%c", i+1, feature_name[t->f[i]]);
   }
   printf(" \n");
 }
@@ -1154,7 +1153,6 @@ void build_tuples( state *s, ub2 d, ub2 f)
   feature  tuple[MAX_N];                      /* n-tuples that include (d,f) */
   sb4      i, j, n = s->n[d][f];
   ub8      count = 0;
-  test    *t;
   tu_iter  ctx;
 
   if (s->tc[d][f] > 0 || s->n[d][f] == s->n_final) {
@@ -1249,7 +1247,6 @@ test  *t,                                                /* test being built */
 ub1   *mut)              /* mut[i] = 1 if I am allowed to adjust dimension i */
 {
   ub4      i;
-  without *w;                               /* one of the disobeyed withouts */
   ub4      count;                        /* number of withouts currently hit */
   ub2      ndim;                                         /* size of dimord[] */
   ub2      temp;
@@ -1270,7 +1267,7 @@ ub1   *mut)              /* mut[i] = 1 if I am allowed to adjust dimension i */
     ub4     j;
     ub2     best[MAX_FEATURES];                      /* best features so far */
     ub1     ok = TRUE;
-    
+
     for (j=ndim; j>0; --j) {
       ub2 fcount = 0;                    /* count of filled elements of best */
       ub2 mydim;                                    /* the current dimension */
@@ -1520,7 +1517,6 @@ void cover_tuples( state *s)
 
     /* find a good test */
     for (i=0; i<GROUP_SIZE; ++i) {
-      tu_iter  ctx;
       sb4      this_count;
 
       /* generate a test that covers the first tuple */
